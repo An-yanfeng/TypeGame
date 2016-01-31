@@ -1,0 +1,125 @@
+body{
+	width: 100%;height: 100%;
+	overflow: hidden;
+	position: relative;
+	background:url(../images/bj.jpg) no-repeat;
+	background-size: cover;
+}
+.l{
+	width:100px;
+	height:100px;
+	position: absolute;
+	top:115px;
+	left:250px;
+}
+.r{
+	width:100px;
+	height:100px;
+	position: absolute;
+	top:115px;
+	right:10px;
+
+}
+.begin{
+	width:100px;
+	height:70px;
+	position: absolute;
+	top:350px;
+	left:60px;
+	border-radius:20%;
+	background-size:100px;
+	cursor: pointer;
+}
+.panel{
+	width: 270px;
+	height: 270px;
+	position: fixed;
+	bottom: 10px;
+	left: 0;
+	font-size: 24px;
+	color:#fff;
+}
+.panel img{
+	width:270px;
+	height:270px;
+}
+.panel .die{
+	width: 100px;
+	height: 30px;
+	text-align:center;
+	line-height: 30px;
+	position: absolute;
+	top:90px;
+	left:144px;
+}
+.panel .sore{
+	width: 100px;
+	height:30px;
+	text-align:center;
+	line-height: 30px;
+	position: absolute;
+	top:140px;
+	left:144px;
+}
+.gq{
+	width:38px;
+	height:24px;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.over{
+	width:500px;height:300px;background: #ccc;margin:200px auto;border-radius: 10px;
+    text-align: center;line-height: 300px;font-size: 30px;font-weight: 700;position: relative;display:none;
+}
+.close{width:50px;height:50px;position:absolute;right:0;
+	  text-align: center;line-height: 50px;
+}
+.tishi{
+	width:500px;
+	height:300px;
+	margin:200px 450px;
+	position: relative;
+	background:url("../images/sb.jpg");
+	display: none;
+	z-index: 8888;
+}
+.close{
+	width:30px;
+	height:30px;
+	font-size:30px;
+	line-height:30px;
+	text-align:center;
+	position: absolute;
+	color:#000;
+}
+.sb{
+	width:200px;
+	height:50px;
+	position:absolute;
+	bottom:150px;
+	left:130px;
+	font-size:40px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.tishi1{
+	width:500px;
+	height:300px;
+	margin:200px 450px;
+	position: relative;
+	background:url("../images/sb.jpg");
+	display: none;
+	z-index: 8888;
+	cursor: pointer;
+}
+.jx{
+	width:200px;
+	height:30px;
+	position:absolute;
+	bottom:150px;
+	left:150px;
+	font-size:40px;
+	font-weight: bold;
+}
